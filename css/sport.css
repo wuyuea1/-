@@ -16,6 +16,7 @@
   height: 60px;
 }
 .nav-wrap{
+  position: relative;
   margin:auto;
   width:720px;
   height: 70px;
@@ -45,4 +46,13 @@
 }
 .nav-wrap li:hover>a{
   color:#000;
+}
+/*搜索*/
+.search{
+  width:18px;
+  height: 19px;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  background-image: url("../images/search1.png");
 }
